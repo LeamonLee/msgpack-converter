@@ -15,8 +15,8 @@ cd msgpack-converter
 
 The Go version provides two functions:
 
-- `EncodeJSONToMsgPack(jsonData []byte) ([]byte, error)`: Encodes JSON data to MessagePack format.
-- `DecodeMsgPackToJSON(msgpackData []byte) ([]byte, error)`: Decodes MessagePack data to JSON format.
+- `EncodeJSONToMsgPack(data interface{}) ([]byte, error)`: Encodes JSON data to MessagePack format.
+- `DecodeMsgPackToJSON(data []byte) ([]byte, error)`: Decodes MessagePack data to JSON format.
 
 ### Running Go Unit Tests
 
